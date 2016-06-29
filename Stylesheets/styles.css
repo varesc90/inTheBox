@@ -1,0 +1,246 @@
+
+
+html,body{
+	margin:0;
+	background-image: url("background.jpg");
+}
+
+p,a,h1{
+	font-family: "courier new", monospace;
+}
+#header{
+	position:relative;
+	background-color:black;
+	border: 1px black solid;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	text-align:center;
+}
+#header nav.topic{
+
+	float:left;
+	width:90%;
+	box-sizing: :border-box;
+	margin: 0 5% 0 5%;
+	
+}
+
+#header h1{
+	background-color: white;
+	color: black;
+	padding: 50px 0px 50px 0px;
+	float: left;
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+nav.topic a{
+
+	box-sizing: border-box;
+	background-color: lightgrey;
+	width: 20%;
+	margin:0 0 0 0;
+	float:left;
+	padding:7px;
+	border: 1px black solid;
+	text-decoration: none;
+	color: black;
+	position: relative;
+}
+
+nav.topic a:hover{
+	background-color: white;
+}
+
+img.mainpic{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	float: left;
+	margin: 0 5% 0 5%;
+	width: 90%;
+	height: 300px;
+}
+
+div.news{
+	float: left;
+	width:90%;
+	background-color: black;
+	margin: 0 5% 0 5%;
+}
+
+div.news p.date{
+	font-size: 15px;
+	
+}
+div.news p{
+	margin-left: 200px;
+	color:white;
+}
+
+#footer{
+	clear:both;
+	width:90%;
+	background-color: white;
+	margin:0 5% 0 5%;
+	padding:;
+}
+
+#footer p.footer{
+	padding: 30px;
+	text-align:center;
+	margin-bottom: 0;
+}
+
+/*CSS FOR menu.html*/
+/*//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+
+*/
+
+
+#menucover, #aboutuspic{
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+#menu_header{
+
+	width:100%;
+	height: 200px;
+	border: 1px black solid;
+	border-bottom: none;
+}
+
+#menu_header p{
+	font-size: 60px;
+	text-align: center;
+	
+}
+
+#menu_body, #aboutus_body{
+	
+	display: block;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	border: dotted 1px black;
+	height: 1000px;
+	
+}
+
+#menu_section{
+	width:33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#menu_body_header{
+	margin: 0;
+	width: 100%;
+	padding: 10px;
+	font-size: 30px;
+	color: darkgreen;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#menu_body_list{
+	text-align: center;
+	font-size: 20px;
+	list-style-position: inside;
+	list-style-type:none;
+	line-height: 2em;
+}
+
+
+/*CSS FOR ABOUT US PAGE
+/////////////////////////////////////
+/////////////////////////////////////*/
+
+#aboutus_welcome{
+	letter-spacing: 5px;
+	font-size: 30px;
+	position: absolute;
+	padding: 70px;
+	background-color: lightgrey;
+	opacity: 0.8;
+	float:left;
+	left: 110px;
+	top: 400px;
+}
+
+#aboutus_body p.aboutus_detail{
+	width: 50%;
+	margin-top: 60px;
+	float: left;
+}
+
+#social_media_bar{
+	width: 5%;
+	position: fixed;
+	top: 50%;
+	left: 0;
+}
+
+#social_media_bar img.socialmedia_logo {
+	width: 50px;
+}
+
+/*CSS FOR Gallery
+/////////////////////////////////////
+/////////////////////////////////////*/
+
+#gallery_section{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#gallery_section img.gallery_pic{
+	width: 23%;
+	height: 130px;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	float: left;
+	opacity:0.8;
+}
+
+/*#gallery_pic1{
+	width: 23%;
+	height: 130px;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	float: left;
+	opacity:0.8;
+}*/
+
+#gallery_section img.gallery_pic:hover{
+	opacity:1;
+}
+
+
+/*CSS FOR Contact us
+/////////////////////////////////////
+/////////////////////////////////////*/
+
+#contact_body{
+	width:90%;
+	height: 400px;
+	margin-left: 5%;
+
+}
+
+#contact_body p.contact_detail{
+	font-size: 30px;
+	text-align: center;
+}
+
+#contact_body a{
+	font-size: 20px;
+	text-align: center;
+	display: block;
+}
