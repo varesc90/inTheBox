@@ -198,12 +198,11 @@ div.news p{
 #gallery_section{
 	width: 90%;
 	margin-left: 5%;
-	border: 1px black solid;
 	height: 1000px;
 	position: relative;
 }
 
-#gallery_section img.gallery_pic,div.text{
+div.box{
 	width: 23%;
 	height: 130px;
 	margin-left: 2%;
@@ -211,26 +210,15 @@ div.news p{
 	float: left;
 	opacity:1;
 	box-sizing: border-box;
+	position: relative;
 }
 
-#gallery_pic1{
-	width: 23%;
-	height: 130px;
-	margin-left: 2%;
-	margin-bottom: 10px;
-	float: left;
-	opacity:1;
+img.gallery_pic, div.text{
+	width: 100%;
+	height:100%;
+	position: absolute;
 }
 
-div.text {
-	position:absolute;
-	opacity: 1;
-	top: 0;
-	left: 0;
-	text-align: center;
-
-
-}
 
 div.text span{
 	position: absolute;
@@ -238,7 +226,7 @@ div.text span{
 	background-color: white;
 	left: 30%;
 	top: 40%;
-	visibility:hidden;
+	visibility: hidden;
 
 }
 
