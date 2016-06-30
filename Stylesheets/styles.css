@@ -198,29 +198,59 @@ div.news p{
 #gallery_section{
 	width: 90%;
 	margin-left: 5%;
+	border: 1px black solid;
+	height: 1000px;
+	position: relative;
 }
 
-#gallery_section img.gallery_pic{
+#gallery_section img.gallery_pic,div.text{
 	width: 23%;
 	height: 130px;
 	margin-left: 2%;
 	margin-bottom: 10px;
 	float: left;
-	opacity:0.8;
+	opacity:1;
+	box-sizing: border-box;
 }
 
-/*#gallery_pic1{
+#gallery_pic1{
 	width: 23%;
 	height: 130px;
 	margin-left: 2%;
 	margin-bottom: 10px;
 	float: left;
-	opacity:0.8;
-}*/
-
-#gallery_section img.gallery_pic:hover{
 	opacity:1;
 }
+
+div.text {
+	position:absolute;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	text-align: center;
+
+
+}
+
+div.text span{
+	position: absolute;
+	vertical-align: middle;
+	background-color: white;
+	left: 30%;
+	top: 40%;
+	visibility:hidden;
+
+}
+
+div.text:hover
+{
+	background-color: white;
+	opacity: 0.8;
+}
+div.text:hover span{
+	visibility: visible;
+}
+
 
 
 /*CSS FOR Contact us
